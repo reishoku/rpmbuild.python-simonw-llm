@@ -1,5 +1,9 @@
 %global pypi_name simonw-llm
 
+# Disable debug packages
+%global debug_package %{nil}
+%define _enable_debug_packages 0
+
 Name:           python-%{pypi_name}
 Version:        0.28
 Release:        1%{?dist}
