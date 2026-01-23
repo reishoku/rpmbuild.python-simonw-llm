@@ -1,0 +1,11 @@
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -4,7 +4,7 @@ version = "0.23"
+ description = "LLM access to models by Anthropic, including the Claude series"
+ readme = "README.md"
+ authors = [{name = "Simon Willison"}]
+-license = "Apache-2.0"
++license = {text = "Apache-2.0"}
+ requires-python = ">=3.10"
+ classifiers = []
+ dependencies = [

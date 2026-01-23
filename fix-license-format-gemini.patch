@@ -1,0 +1,11 @@
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -4,7 +4,7 @@ version = "0.28.2"
+ description = "LLM plugin to access Google's Gemini family of models"
+ readme = "README.md"
+ authors = [{name = "Simon Willison"}]
+-license = "Apache-2.0"
++license = {text = "Apache-2.0"}
+ classifiers = []
+ dependencies = [
+     "llm>=0.27",
